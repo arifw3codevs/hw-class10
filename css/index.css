@@ -1,0 +1,433 @@
+/* site-default-css */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----font-family: 'Amatic SC', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+h1,
+h2,
+h3,h4,
+h5,
+h5{
+    font-family: "nunito" "open sans";
+    font-weight: 700;
+}
+body{
+    font-family: "open sans";
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container::before,
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-50-l{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.col-50-R{
+    width: 50%;
+    padding: 0 15px;
+    float: right;
+}
+
+.col-33{
+    width: 32%;
+    float: left;
+    padding: 0 15px;
+
+}
+/*-----1.header-----*/
+header{
+    color: white;
+    background-color: #84CBC4;
+}
+
+.logo{
+    height: 80px;
+    padding: 0 30px;
+
+}
+
+.logo img{
+    height: 80px;
+    width: 136px;
+}
+
+.main-menu{
+    float: right;
+    padding: 25px 0;
+}
+.main-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px 20px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    
+}
+
+/*-----Home-----*/
+.home {
+    background-image:url(../image/h1-slide-1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-left{
+    padding:100px 0px;
+    display: table;
+    float: left;
+
+}
+.home-left h1{
+    font-family: 'Nunito', sans-serif;
+    color: #85ccc5;
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 90px;
+}
+
+.home-left h6{
+    font-family: 'Nunito', sans-serif;
+    color: #555555;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px 0px;
+}
+.btn{
+     padding: 20px 0;
+     display: inline-flex;
+}
+
+
+.btn a{
+    color: #212121;
+    font-size: 14px;
+    padding: 20px 40px;
+    background: #FED872;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+.btn a:hover{
+    color: white;
+}
+/*-----catalog-box-css----*/
+
+.catagory-all{
+    margin: -20px 0;
+    padding: 0 0px 0 40px;
+}
+.catalog-1{
+    background-image: url(../image/h1-box-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+}
+
+.catalog-2{
+    background-image: url(../image/h1-box-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+}
+.catalog-3{
+    background-image: url(../image/h1-box-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+}
+.catalog-1 h2{
+    color: white;
+    padding: 110px 20px 10px ;
+    font-family:  'Amatic SC', cursive;
+    font-size: 54px;
+    font-weight: 700;
+}
+.catalog-1 p{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.catalog-2 h2{
+    color: white;
+    padding: 110px 20px 10px ;
+    font-family:  'Amatic SC', cursive;
+    font-size: 54px;
+    font-weight: 700;
+}
+.catalog-2 p{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.catalog-3 h2{
+    color: white;
+    padding: 110px 20px 10px ;
+    font-family:  'Amatic SC', cursive;
+    font-size: 54px;
+    font-weight: 700;
+}
+.catalog-3 p{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.col-p-0 .col-33{
+    padding: 0;
+
+}
+/* catalog-box-end */
+
+.catalog-item{
+    padding: 100px 20px;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+}
+.ctg-title{
+    padding: 15px 15px;
+}
+.ctg-title img{
+     display: inline-block;
+     clear: both;
+}
+
+/*------item-end-css----*/
+/*----learning css----- */
+.learning{
+    background-image: url(../image/h1-kids.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+.learning-box{
+    padding: 50px 30px;
+    margin: 50px;
+    float: right;
+    background-color: #fcce71;
+}
+.learning-box h3{
+    padding: 20px 5px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 54px;
+    color:#fff;
+}
+.learning-box p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 8px 5px;
+    color: #212121;
+}
+.learning-box .btn a {
+    background-color: white;
+}
+.learning-box .btn a:hover{
+    color: white;
+    background-color: black;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 80px 10px;
+
+}
+.section-heading h3{
+    color: #434343;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+.section-heading p{
+    padding: 30px 0 50px 0;
+    color: #888888;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.event-bg{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.event-bg img{
+    height: 100%;
+    width: 100%;
+    transition: .7s;
+
+}
+.event-bg:hover img{
+    transform: scale(1.05);
+    transition: .7s;
+}
+
+.event-bg .date{
+    background-color: #fcce71;
+    color: #fff;
+    position: absolute;
+    padding:20px 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    top: 0;
+    left: 0;
+}
+.event-bg:hover .date{
+    background-color: #434343;
+    color: #fff;
+    transition: .7s;
+}
+.event-item h3{
+    font-size: 25px;
+    margin: 25px 0px;
+    border-bottom: 1px solid #dddd;
+}
+.event-item li{
+    list-style: none;
+    color: gray;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+/*----event-ending----*/
+
+/* ----Admition-start----- */
+
+.admition{
+    background-image: url(../image/h1-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+
+}
+.section-heading h3{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 50px 0;
+}
+.admition input{
+    height: 50px;
+    width: 220px;
+}
+.admition form{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.admition button{
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    background-color: #fcce71;
+    border: none;
+    font-size: 25px;
+}
+
+.admition button:hover{
+    background-color: black;
+}
+
+
+.details h3{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 25px 10px;
+}
+.details p{
+    font-size: 17px;
+    padding: 20px 10px;
+}
+.details i{
+    padding: 20px 10px;
+    font-size: 15px;
+}
+/* ----Admition-end---- */
+
+/*----contact-css---*/
+.contact{
+    background-image: url(../image/h1-footer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 10px;
+}
+
+
+.contact img{
+    height: 100%;
+    width: 100%;
+}
+/* ---bottom-section-css--- */
+
+.bottom{
+    background-image: url(../image/h1-footer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bottom p{
+    padding: 40px 10px;
+    border-top: 1px solid gray;
+
+}
+.bottom i{
+    padding: 0 20px;
+}
